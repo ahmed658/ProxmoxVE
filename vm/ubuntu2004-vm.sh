@@ -407,7 +407,7 @@ fi
 msg_ok "Using ${CL}${BL}$STORAGE${CL} ${GN}for Storage Location."
 msg_ok "Virtual Machine ID is ${CL}${BL}$VMID${CL}."
 msg_info "Retrieving the URL for the Ubuntu 22.04 Disk Image"
-URL=https://github.com/community-scripts/ProxmoxVE/raw/main/vm/ubuntu2204-vm.sh
+URL=https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
 sleep 2
 msg_ok "${CL}${BL}${URL}${CL}"
 wget -q --show-progress $URL
